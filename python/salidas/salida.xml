@@ -1,0 +1,163 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<solution authorXML="Carlos Andrés Delgado Saavedra" >
+<head>
+	<timeOfSolution></timeOfSolution>
+	<numberOfPresentStations></numberOfPresentStations>
+	<numberOfInputStations></numberOfInputStations>
+	<alert>0</alert>
+	<solution>1</solution>
+	<status>
+		<s1>0</s1>
+		<s2>0</s2>
+		<s3>0</s3>
+		<s4>0</s4>
+		<s5>0</s5>
+	</status>
+</head>
+<report>
+	<case key=”1”>
+		<station ID="1">
+			<interferencesPerChannel>
+				<interferentStation ID=”100”>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+
+					</channels>
+				</interferentStation>
+				<interferentStation ID=”110”>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferentStation>
+			</interferencesPerChannel>
+			<totalInterference>
+				<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+				<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+			</totalInterference>
+			<isInterferent>
+				<interferentStation ID=”100”>0</interferentStation>
+				<interferentStation ID=”110”>0</interferentStation>
+			</isInterferent>
+		</station>
+		<station ID="2">
+				<interferencesEIPerChannel>
+					<interferentStation ID=”100”>
+						<channels>
+							<channel ID=”10”>-103.87331405868002</channel>
+							<channel ID=”11”>-103.78635206898184</channel>
+							<channel ID=”12”>-103.87331405868002</channel>
+						</channels>
+					</interferentStation>
+					<interferentStation ID=”110”>
+						<channels>
+							<channel ID=”10”>-103.87331405868002</channel>
+							<channel ID=”11”>-103.78635206898184</channel>
+							<channel ID=”12”>-103.87331405868002</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+					<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation ID=”100”>0</interferentStation>
+					<interferentStation ID=”110”>0</interferentStation>
+				</isInterferent>
+			</station>
+		</case>
+	<case key=”2”> .
+		<station ID='1'>
+				<interferenceInChannel>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferenceInChannel>
+				<totalInterference>0</totalInterference>
+				<isInterferent>0</isInterferent>		
+		</station>
+		<station ID='2'>
+				<interferenceInChannel>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferenceInChannel>
+				<totalInterference>
+					<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+					<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation ID=”100”>0</interferentStation>
+					<interferentStation ID=”110”>0</interferentStation>
+				</isInterferent>		
+		</station>
+	</case>
+	<case key=”3”> 
+		<station ID='2'>
+				<interferenceInChannel>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferenceInChannel>
+				<totalInterference>
+					<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+					<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation ID=”100”>0</interferentStation>
+					<interferentStation ID=”110”>0</interferentStation>
+				</isInterferent>		
+		</station>
+	</case>
+	<case key=”4”> 
+		<station ID='2'>
+				<interferenceInChannel>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferenceInChannel>
+				<totalInterference>
+					<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+					<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation ID=”100”>0</interferentStation>
+					<interferentStation ID=”110”>0</interferentStation>
+				</isInterferent>		
+		</station>
+	</case>
+	<case key=”5”> 
+		<station ID='2'>
+				<interferenceInChannel>
+					<channels>
+						<channel ID=”10”>-103.87331405868002</channel>
+						<channel ID=”11”>-103.78635206898184</channel>
+						<channel ID=”12”>-103.87331405868002</channel>
+					</channels>
+				</interferenceInChannel>
+				<totalInterference>
+					<interferentStation ID=”100”>-96.44764619738694</interferentStation>
+					<interferentStation ID=”110”>-96.50634810806292</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation ID=”100”>0</interferentStation>
+					<interferentStation ID=”110”>0</interferentStation>
+				</isInterferent>		
+		</station>
+	</case>
+</report>
+</solution>
+

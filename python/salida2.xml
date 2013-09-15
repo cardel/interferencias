@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution authorXML="Carlos Andrés Delgado Saavedra" >
+	<head>
+		<timeOfSolutionInms>17.2328948975</timeOfSolutionInms>
+		<numberOfPresentStations>3</numberOfPresentStations>
+		<numberOfInputStations>1</numberOfInputStations>
+		<alert>1.0</alert>
+		<valid>1.0</valid>
+		<status>
+			<s1>1.0</s1>
+			<s2>1.0</s2>
+			<s3>1.0</s3>
+			<s4>1.0</s4>
+			<s5>1.0</s5>
+		</status>
+	</head>
+	<report>
+		<case key="1">
+			<station key="1">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="66">-109.13929381</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-109.13929381</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">0.0</interferentStation>
+				</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="140">-101.267020832</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-101.267020832</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">1.0</interferentStation>
+				</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="1098">-75.1929231742</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-75.1929231742</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">1.0</interferentStation>
+				</isInterferent>
+			</station>
+		</case>
+		<case key="2">
+			<station key="1">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="66">-109.13929381</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-109.13929381</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="140">-101.267020832</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-101.267020832</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="1098">-75.1929231742</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-75.1929231742</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+		</case>
+		<case key="3">
+			<station key="1">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="66">-95.8529307443</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-95.8529307443</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="140">-89.5320941988</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-89.5320941988</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="1098">-75.1076157776</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-75.1076157776</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+		</case>
+		<case key="4">
+			<station key="10">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="1135">-77.9592924837</channel>
+							<channel ID="1140">-77.9592924837</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-74.948992527</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+		</case>
+		<case key="5">
+			<station key="10">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="1135">-77.9592924837</channel>
+							<channel ID="1140">-77.9592924837</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-74.948992527</totalInterference>
+				<isInterferent>1.0</isInterferent>
+			</station>
+		</case>
+	</report>
+</solution>

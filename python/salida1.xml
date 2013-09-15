@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution authorXML="Carlos Andrés Delgado Saavedra" >
+	<head>
+		<timeOfSolutionInms>10.9601020813</timeOfSolutionInms>
+		<numberOfPresentStations>3</numberOfPresentStations>
+		<numberOfInputStations>2</numberOfInputStations>
+		<alert>0.0</alert>
+		<valid>0.0</valid>
+		<status>
+			<s1>0.0</s1>
+			<s2>0.0</s2>
+			<s3>0.0</s3>
+			<s4>0.0</s4>
+			<s5>0.0</s5>
+		</status>
+	</head>
+	<report>
+		<case key="1">
+			<station key="1">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="28">-103.873314059</channel>
+							<channel ID="33">-103.786352069</channel>
+							<channel ID="39">-103.709172882</channel>
+							<channel ID="66">-103.689078961</channel>
+						</channels>
+					</interferentStation>
+					<interferentStation key="11">
+						<channels>
+							<channel ID="28">-106.202378427</channel>
+							<channel ID="33">-106.175967715</channel>
+							<channel ID="39">-106.192138811</channel>
+							<channel ID="66">-106.34782913</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-97.7432747793</interferentStation>
+					<interferentStation key="11">-100.208434935</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">0.0</interferentStation>
+					<interferentStation key="11">0.0</interferentStation>
+				</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="7">-111.070649074</channel>
+							<channel ID="18">-110.875086678</channel>
+							<channel ID="64">-110.501953469</channel>
+						</channels>
+					</interferentStation>
+					<interferentStation key="11">
+						<channels>
+							<channel ID="7">-108.527167999</channel>
+							<channel ID="18">-108.480998415</channel>
+							<channel ID="64">-108.56809791</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-106.038237011</interferentStation>
+					<interferentStation key="11">-103.754063122</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">0.0</interferentStation>
+					<interferentStation key="11">0.0</interferentStation>
+				</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesPerChannel>
+					<interferentStation key="10">
+						<channels>
+							<channel ID="20">-113.388311565</channel>
+							<channel ID="57">-113.001657981</channel>
+							<channel ID="69">-113.083454252</channel>
+						</channels>
+					</interferentStation>
+					<interferentStation key="11">
+						<channels>
+							<channel ID="20">-96.5212614679</channel>
+							<channel ID="57">-96.580854728</channel>
+							<channel ID="69">-96.6774278451</channel>
+						</channels>
+					</interferentStation>
+				</interferencesPerChannel>
+				<totalInterference>
+					<interferentStation key="10">-108.383432705</interferentStation>
+					<interferentStation key="11">-91.8214927653</interferentStation>
+				</totalInterference>
+				<isInterferent>
+					<interferentStation key="10">0.0</interferentStation>
+					<interferentStation key="11">0.0</interferentStation>
+				</isInterferent>
+			</station>
+		</case>
+		<case key="2">
+			<station key="1">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="28">-101.873251334</channel>
+							<channel ID="33">-101.808537729</channel>
+							<channel ID="39">-101.765274821</channel>
+							<channel ID="66">-101.80779337</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-95.7929432775</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="7">-106.605009057</channel>
+							<channel ID="18">-106.504819674</channel>
+							<channel ID="64">-106.417963419</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-101.737379415</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="20">-96.4328212535</channel>
+							<channel ID="57">-96.4829509166</channel>
+							<channel ID="69">-96.5791940947</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-91.7266855624</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+		</case>
+		<case key="3">
+			<station key="1">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="28">-94.5083303974</channel>
+							<channel ID="33">-94.5083303974</channel>
+							<channel ID="39">-94.5083303974</channel>
+							<channel ID="66">-94.5083303974</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-88.4877304842</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="2">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="7">-91.2995470438</channel>
+							<channel ID="18">-91.2995470438</channel>
+							<channel ID="64">-91.2995470438</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-86.5283344966</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="3">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="20">-96.5239240045</channel>
+							<channel ID="57">-96.5239240045</channel>
+							<channel ID="69">-96.5239240045</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-91.7527114573</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+		</case>
+		<case key="4">
+			<station key="10">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="37">-93.9709347554</channel>
+							<channel ID="57">-93.9709347554</channel>
+							<channel ID="99">-93.9709347554</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-89.1997222082</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="11">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="7">-93.9709347554</channel>
+							<channel ID="35">-93.9709347554</channel>
+							<channel ID="66">-93.9709347554</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-89.1997222082</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+		</case>
+		<case key="5">
+			<station key="10">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="37">-93.0728562337</channel>
+							<channel ID="57">-93.0728562337</channel>
+							<channel ID="99">-93.0728562337</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-88.3016436865</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+			<station key="11">
+				<interferencesInChannel>
+					<channels>
+							<channel ID="7">-93.0728562337</channel>
+							<channel ID="35">-93.0728562337</channel>
+							<channel ID="66">-93.0728562337</channel>
+					</channels>
+				</interferencesInChannel>
+				<totalInterference>-88.3016436865</totalInterference>
+				<isInterferent>0.0</isInterferent>
+			</station>
+		</case>
+	</report>
+</solution>

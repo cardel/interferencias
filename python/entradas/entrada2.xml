@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+	<presentation format="XCSP 2.1">Representacion entrada de problema interferencias gestion espectro radioelectrico</presentation>
+	<dict>
+		<entry key="fallDBOctave"><i>10.0</i></entry>
+		<entry key="ChannelsFormule">
+			<list>
+				<i>
+					<entry key="m"><i>1.0</i></entry>
+				</i>
+				<i>
+					<entry key="b"><i>800.0</i></entry>
+
+				</i>
+			</list>
+		</entry>
+		<entry key="numberofChannels"><i>1500</i></entry>
+		<entry key="IDband"><i>800</i></entry>
+		<entry key="presentStations">
+			<list>
+				<i> 
+					<entry key="1">
+						<list>
+							<i> 
+								<entry key="power">
+									<i>46.02</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="h">
+									<i>42</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="x">
+									<i>-11.3</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="y">
+									<i>0.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="operator">
+									<i>55</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="hre">
+									<i>1.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="w">
+									<i>12.5</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="channels">				
+									<i>
+										<list>
+											<i>66</i>
+										</list>
+									</i>
+								</entry>
+							</i>
+							<i>
+								<entry key="umbral">
+									<i>-98.0</i>
+								</entry>
+							</i>
+						</list>
+					</entry>
+				</i>
+				<i>
+					<entry key="2">
+						<list>
+							<i> 
+								<entry key="power">
+									<i>45.6</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="h">
+									<i>32.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="x">
+									<i>7.4</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="y">
+									<i>0.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="operator">
+									<i>55</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="hre">
+									<i>1.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="w">
+									<i>12.5</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="channels">				
+									<i>
+										<list>
+											<i>140</i>
+										</list>
+									</i>
+								</entry>
+							</i>
+							<i>
+								<entry key="umbral">
+									<i>-104.0</i>
+								</entry>
+							</i>
+						</list>
+					</entry>
+				</i>
+				<i>
+					<entry key="3">
+						<list>
+							<i> 
+								<entry key="power">
+									<i>43.01</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="h">
+									<i>19.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="x">
+									<i>0.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="y">
+									<i>2.7</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="operator">
+									<i>55</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="hre">
+									<i>1.0</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="W">
+									<i>1.5</i>
+								</entry>
+							</i>
+							<i> 
+								<entry key="channels">				
+								<i>
+									<list>
+										<i>1098</i>
+									</list>
+								</i>
+								</entry>
+							</i>
+							<i>
+								<entry key="umbral">
+									<i>-108.0</i>
+								</entry>
+							</i>
+						</list>
+					</entry>
+				</i>
+			</list>
+			</entry>
+			<entry key="inputStations">
+				<list>
+					<i> 
+						<entry key="10">
+							<list>
+								<i> 
+									<entry key="power">
+										<i>43.01</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="h">
+										<i>20.0</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="x">
+										<i>0.0</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="y">
+										<i>0.0</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="operator">
+										<i>55</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="hre">
+										<i>1.0</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="W">
+										<i>5.0</i>
+									</entry>
+								</i>
+								<i> 
+									<entry key="channels">				
+									<i>
+										<list>
+											<i>1135</i>
+											<i>1140</i>
+										</list>
+									</i>
+									</entry>
+								</i>
+								<i>
+									<entry key="umbral">
+										<i>-108.0</i>
+									</entry>
+								</i>
+							</list>
+						</entry>
+					</i>
+			</list>
+		</entry>
+	</dict>
+</instance>
